@@ -7,230 +7,237 @@
     tools:context=".ExercisesPage">
 
     <Button
-        android:id="@+id/button_deleteexercise"
+        android:id="@+id/button_deleteExercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="casual"
-        android:text="Delete Exercise"
+        android:text="@string/deleteExercise"
         android:textAlignment="center"
         android:textSize="14sp"
         android:textStyle="bold"
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_exercisenames" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_exerciseNames" />
 
     <TextView
-        android:id="@+id/textView_sideslabel"
+        android:id="@+id/textView_sidesLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="casual"
-        android:text="Sides"
+        android:text="@string/sides"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_restlabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_restLabel" />
 
     <TextView
-        android:id="@+id/textView_namelabel"
+        android:id="@+id/textView_nameLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="casual"
-        android:text="Name"
+        android:text="@string/name"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_addexercise" />
+        app:layout_constraintTop_toBottomOf="@+id/button_addExercise" />
 
     <TextView
-        android:id="@+id/textView_timeonlabel"
+        android:id="@+id/textView_timeOnLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="casual"
-        android:text="Time On"
+        android:text="@string/timeon"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_namelabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_nameLabel" />
 
     <TextView
-        android:id="@+id/textView_timeofflabel"
+        android:id="@+id/textView_timeOffLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="casual"
-        android:text="Time Off"
+        android:text="@string/timeoff"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_timeonlabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_timeOnLabel" />
 
     <TextView
-        android:id="@+id/textView_restlabel"
+        android:id="@+id/textView_restLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="casual"
-        android:text="Rest"
+        android:text="@string/rest"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_timeofflabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_timeOffLabel" />
 
     <TextView
-        android:id="@+id/textView_repslabel"
+        android:id="@+id/textView_repsLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="casual"
-        android:text="Reps"
+        android:text="@string/reps"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_sideslabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_sidesLabel" />
 
     <TextView
-        android:id="@+id/textView_setslabel"
+        android:id="@+id/textView_setsLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="casual"
-        android:text="Sets"
+        android:text="@string/sets"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_repslabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_repsLabel" />
 
     <Button
-        android:id="@+id/button_addexercise"
+        android:id="@+id/button_addExercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="casual"
-        android:text="Add Exercise"
+        android:text="@string/addExercise"
         android:textAlignment="center"
         android:textSize="14sp"
         android:textStyle="bold"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_exercisenames" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_exerciseNames" />
 
     <EditText
-        android:id="@+id/editabletext_namefield"
+        android:id="@+id/editableText_nameField"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="@string/ex1"
         android:inputType="textPersonName"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_addexercise" />
+        app:layout_constraintTop_toTopOf="@+id/textView_nameLabel" />
 
     <EditText
-        android:id="@+id/editablenumber_timeon"
+        android:id="@+id/editableNumber_timeOn"
         android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="@string/ex2"
         android:inputType="number"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_namelabel" />
+        app:layout_constraintTop_toTopOf="@+id/textView_timeOnLabel" />
 
     <EditText
-        android:id="@+id/editablenumber_timeoff"
+        android:id="@+id/editableNumber_timeOff"
         android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="@string/ex3"
         android:inputType="number"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_timeonlabel" />
+        app:layout_constraintTop_toTopOf="@+id/textView_timeOffLabel" />
 
     <EditText
-        android:id="@+id/editablenumber_rest"
+        android:id="@+id/editableNumber_rest"
         android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="@string/ex4"
         android:inputType="number"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_timeofflabel" />
+        app:layout_constraintTop_toTopOf="@+id/textView_restLabel" />
 
     <EditText
-        android:id="@+id/editablenumber_side"
+        android:id="@+id/editableNumber_side"
         android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="@string/ex5"
         android:inputType="number"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_restlabel" />
+        app:layout_constraintTop_toTopOf="@+id/textView_sidesLabel" />
 
     <EditText
-        android:id="@+id/editablenumber_reps"
+        android:id="@+id/editableNumber_reps"
         android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="@string/ex6"
         android:inputType="number"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_sideslabel" />
+        app:layout_constraintTop_toTopOf="@+id/textView_repsLabel" />
 
     <EditText
-        android:id="@+id/editablenumber_sets"
+        android:id="@+id/editableNumber_sets"
         android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="@string/ex7"
         android:inputType="number"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_repslabel" />
+        app:layout_constraintTop_toTopOf="@+id/textView_setsLabel" />
 
     <Button
         android:id="@+id/button_update"
@@ -239,7 +246,7 @@
         android:layout_marginBottom="32dp"
         android:layout_marginStart="8dp"
         android:fontFamily="casual"
-        android:text="Update"
+        android:text="@string/update"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -253,7 +260,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:fontFamily="casual"
-        android:text="Perform"
+        android:text="@string/perform"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -267,17 +274,18 @@
         android:layout_marginBottom="32dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="casual"
-        android:text="Back"
+        android:text="@string/back"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner_exercisenames"
+        android:id="@+id/spinner_exerciseNames"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/spinnerNames"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

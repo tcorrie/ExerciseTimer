@@ -7,6 +7,43 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <string name="exit">Exit</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="timeon">Time On</string>
+    <string name="timeoff">Time Off</string>
+    <string name="side">Side</string>
+    <string name="rep">Rep</string>
+    <string name="set">Set</string>
+    <string name="rest">Rest</string>
+    <string name="sides">Sides</string>
+    <string name="reps">Reps</string>
+    <string name="sets">Sets</string>
+    <string name="name">Name</string>
+
+    <string name="spinnerNames">Pick an exercise name to edit.</string>
+
+    <string name="doneMessage">You have finished this exercise. You will be taken to the main menu shortly.</string>
+
+    <string name="addExercise">Add Exercise</string>
+    <string name="deleteExercise">Delete Exercise</string>
+    <string name="update">Update</string>
+    <string name="perform">Perform</string>
+    <string name="back">Back</string>
+
+    <string name="ex1">Ex: Plank</string>
+    <string name="ex2">Ex: 30</string>
+    <string name="ex3">Ex: 5</string>
+    <string name="ex4">Ex: 15</string>
+    <string name="ex5">Ex: 4</string>
+    <string name="ex6">Ex: 3</string>
+    <string name="ex7">Ex: 2</string>
+
+    <string name="exercises">Exercises</string>
+    <string name="introduction">Exercise timer that keeps track of your reps/sets and rest time. Customizable!</string>
+
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

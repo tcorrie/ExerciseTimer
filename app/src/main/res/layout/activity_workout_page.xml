@@ -7,87 +7,82 @@
     tools:context=".WorkoutPage">
 
     <Button
-        android:id="@+id/button_exitworkout"
-        android:layout_width="0dp"
+        android:id="@+id/button_exitWorkout"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:fontFamily="casual"
-        android:text="Exit"
-        android:textColor="@android:color/holo_red_light"
+        android:text="@string/exit"
+        android:textColor="#D32F2F"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_skip"
-        android:layout_width="0dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:fontFamily="casual"
-        android:text="Skip"
+        android:text="@string/skip"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="30sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_start"
-        android:layout_width="0dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:fontFamily="casual"
-        android:text="Start"
-        android:textColor="@android:color/holo_green_light"
+        android:text="@string/start"
+        android:textColor="#827717"
         android:textSize="30sp"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/button_exitworkout"
+        app:layout_constraintBottom_toTopOf="@+id/button_exitWorkout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_resume"
-        android:layout_width="0dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:fontFamily="casual"
-        android:text="Resume"
+        android:text="@string/resume"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/button_exitworkout"
+        app:layout_constraintBottom_toTopOf="@+id/button_exitWorkout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_pause"
-        android:layout_width="0dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:fontFamily="casual"
-        android:text="Pause"
-        android:textColor="@android:color/holo_orange_light"
+        android:text="@string/pause"
+        android:textColor="#4CAF50"
         android:textSize="30sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/button_exitworkout"
+        app:layout_constraintBottom_toTopOf="@+id/button_exitWorkout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -96,50 +91,50 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="Time On"
+        android:text="@string/timeon"
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_dark"
-        android:textSize="48dp"
+        android:textSize="48sp"
         android:typeface="normal"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_exercisename" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_exerciseName" />
 
     <TextView
-        android:id="@+id/textView_timerrest"
+        android:id="@+id/textView_timerRest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="Rest"
+        android:text="@string/rest"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
-        android:textSize="48dp"
+        android:textSize="48sp"
         android:typeface="normal"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_exercisename" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_exerciseName" />
 
     <TextView
-        android:id="@+id/textView_timeoff"
+        android:id="@+id/textView_timeOff"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="Time Off"
+        android:text="@string/timeoff"
         android:textAlignment="center"
         android:textColor="@android:color/holo_red_dark"
-        android:textSize="48dp"
+        android:textSize="48sp"
         android:typeface="normal"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_exercisename" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_exerciseName" />
 
     <TextView
-        android:id="@+id/textView_exercisename"
+        android:id="@+id/textView_exerciseName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -147,7 +142,7 @@
         android:lines="1"
         android:textAlignment="center"
         android:textColor="@android:color/holo_purple"
-        android:textSize="48dp"
+        android:textSize="48sp"
         app:autoSizeMaxTextSize="48dp"
         app:autoSizeMinTextSize="16dp"
         app:autoSizeStepGranularity="1dp"
@@ -163,7 +158,7 @@
         android:layout_marginBottom="350dp"
         android:layout_marginStart="8dp"
         android:fontFamily="casual"
-        android:text="Side"
+        android:text="@string/side"
         android:textAlignment="viewStart"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
@@ -180,7 +175,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="Rep"
+        android:text="@string/rep"
         android:textAlignment="viewStart"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
@@ -197,7 +192,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="Set"
+        android:text="@string/set"
         android:textAlignment="viewStart"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
@@ -208,7 +203,7 @@
         tools:visibility="visible" />
 
     <TextView
-        android:id="@+id/textView_sidenumber"
+        android:id="@+id/textView_sideNumber"
         android:layout_width="96dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="350dp"
@@ -221,7 +216,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/textView_repnumber"
+        android:id="@+id/textView_repNumber"
         android:layout_width="96dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -231,10 +226,10 @@
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_sidenumber" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_sideNumber" />
 
     <TextView
-        android:id="@+id/textView_setnumber"
+        android:id="@+id/textView_setNumber"
         android:layout_width="96dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -244,7 +239,7 @@
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_repnumber" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_repNumber" />
 
     <TextView
         android:id="@+id/textView_timer"
@@ -261,6 +256,6 @@
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_timerrest" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_timerRest" />
 
 </android.support.constraint.ConstraintLayout>

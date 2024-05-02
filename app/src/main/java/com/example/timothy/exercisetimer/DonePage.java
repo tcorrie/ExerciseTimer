@@ -11,12 +11,9 @@ public class DonePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_done_page);
         handler = new Handler();
-        runnable = new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(DonePage.this, MainMenu.class);
-                startActivity(intent);
-            }
+        runnable = () -> {
+            Intent intent = new Intent(DonePage.this, MainMenu.class);
+            startActivity(intent);
         };
         handler.postDelayed(runnable,5000);
     }

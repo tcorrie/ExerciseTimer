@@ -7,14 +7,14 @@
     tools:context=".DonePage">
 
     <TextView
-        android:id="@+id/textView_donemessage"
+        android:id="@+id/textView_doneMessage"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="192dp"
         android:fontFamily="casual"
-        android:text="You have finished this exercise. You will be taken to the main menu shortly."
+        android:text="@string/doneMessage"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
